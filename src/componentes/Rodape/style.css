@@ -1,0 +1,31 @@
+.rodape{
+    background-color: #0F0E10;
+    color: white;
+    height: 40vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 0;
+}
+.rodape img{
+    height: 150px;
+}
+.rodape-text{   
+    height: 100px;    
+}
+.rodape-text h2{
+    font-size: 15px;
+}
+.rodape-text p{
+    font-size: 10px;
+}
+.rodape-2{
+    background-color: #0F0E10;
+    color: white;    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    
+}

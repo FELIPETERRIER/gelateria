@@ -1,0 +1,57 @@
+.banner {
+    background-color: #F6DCA0;
+    width: 100%;
+    background-image: url('../../../public/assets/banner-home.png');
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    
+  
+}
+.banner-text{
+    color:white;
+    font-size: 32px;
+    text-shadow: 5px 5px #1D1C1A;
+}
+
+.secao-sabores,
+.secao-eventos,
+.secao-sobre{   
+    display: flex;    
+}
+.sabores-text,
+.eventos-text,
+.sobre-text{
+    text-align: center;
+    align-items: center;
+    margin: 20px 0;
+    padding: 50px 50px;
+}
+.secao-sabores img,
+.secao-eventos img,
+.secao-sobre img{
+    width: 50%;
+    
+}
+.sabores-text h2,
+.eventos-text h2,
+.sobre-text h2{
+    width: 100%;   
+    text-align: center;
+    align-items: center; 
+    
+}
+
+.sabores-text span,
+.eventos-text span,
+.sobre-text span{
+    font-weight: bold;
+   
+}
+
+
+

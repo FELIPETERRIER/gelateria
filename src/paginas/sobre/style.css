@@ -1,0 +1,73 @@
+.banner-sobre {
+    background-image: url('../../../public/assets/banner-sobre.png');
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-sobre h1 {
+    color: white;
+    font-size: 52px;
+    text-shadow: 5px 5px #1D1C1A;
+    text-transform: uppercase;
+}
+
+.container-sobre {
+    padding: 100px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-sobre h2 {
+    font-size: 35px;
+    line-height: 26px;
+    text-align: center;
+}
+
+.container-sobre span {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.container-sobre p {
+    text-align: center;
+    line-height: 26px;
+    margin-bottom: 15px;
+}
+.secao-imagens{
+    display: flex;
+    justify-content: center;
+}
+.secao-imagens img{
+    width: 50%;
+    height:50vh;
+    object-fit: cover;
+}
+@media screen and (max-width: 768px) {
+    .banner-sobre h1 {
+      font-size: 60px;
+    }
+  
+    .secao-imagens div {
+      flex-direction: column;
+    }
+  
+    .secao-imagens img {
+      width: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 436px){
+    .banner-sobre h1 {
+      font-size: 40px;
+    }
+  }
